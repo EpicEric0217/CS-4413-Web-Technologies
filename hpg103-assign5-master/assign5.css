@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+}
+
+#container-pic1{
+
+    position: relative;
+    overflow: auto;
+    right: 100px;
+}
+#floating-pic1 img{
+    position: absolute;
+    clear:right;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    float: right;
+
+}
+.div-line{
+    padding-bottom: 20px;
+    height: auto;
+}
+#line{
+    color: black;
+    border-style: solid;
+}
+.floating-pic2 img, .floating-pic2 p{
+    width: 200px;
+    height: 200px;
+    float: right;
+    display:inline;
+}
+#image_1 {
+    width: 300px;
+    height: 200px;
+    /*float aligns the image column towards the right*/
+    float: right;
+    border: 3px solid black;
+}
+#main_table{
+    width: 100%;
+}
+#name_plate{
+    text-align: left;
+}
+#image_2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border: 3px solid red;
+}
+#text_para{
+    float: left;
+}
+body {
+    width: 70%;
+    margin: auto;
+}
+#content_table{
+    min-height: 50%;
+    width: 100%;
+    border-spacing: 10px;
+}
+#content_table td{
+    padding: 10px;
+}
+#first_cell {
+    background: blue;
+    border: 3px solid darkblue;
+    color: white;
+    text-align: center;
+    width: 150px;
+}
+
+.link_color {
+    color: white;
+}
+
+#first_cell_UTSA_Theme
+{
+    border: 3px solid darkblue;
+    color: white;
+    text-align: center;
+    width: 150px;
+    color: black;
+}
+
+#first_cell_dark_theme {
+    background: gray;
+    border: 3px solid darkblue;
+    color: white;
+    text-align: center;
+    width: 150px;
+}
+
+#middle_cell {
+    border: 3px solid darkblue;
+    width: 300px;
+}
+#last_cell {
+    background: orange;
+    border: 3px solid darkorange;
+    color: white;
+    text-align: center;
+}
+
+#last_cell_UTSA_Theme
+{
+    border: 3px solid darkorange;
+    color: white;
+    text-align: center;
+    color: black;
+}
+
+#last_cell_dark_theme {
+    background: gray;
+    border: 3px solid darkorange;
+    color: white;
+    text-align: center;
+}
+
+#first_cell_UTSA_Theme .link_color{
+    color: black;
+}
+
+#footer {
+    border: 5px dashed green;
+    padding-bottom: 75px;
+    margin-top: 10px;
+}
+
+#body_table {
+    max-width: 1000px;
+}
+#body_table_dark_theme
+{
+    max-width: 1000px;
+    background: gray;
+}
+
+.button1{
+    margin-bottom: 15px;
+    border: 2px solid gray;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button2{
+    margin-bottom: 15px;
+    border: 2px solid gray;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.course_info_color{
+    background: lightblue;
+}
